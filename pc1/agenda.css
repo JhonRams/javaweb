@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/09/2020, 11:23:08 AM
+    Author     : JR
+*/
+
+*{ 
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: calibri light;
+    margin: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin: auto;
+}
+.a-bl:link,.a-bl:visited ,.a-bl:hover ,.a-bl:active{
+    color: #0066ff;
+}
+button{
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding:  0.1em 0.5em;
+    border-radius: 2px;   
+}
+button:hover{
+    box-shadow: 0 0 3px 1px #3a3d4a;
+}
+.contenedor{
+    padding: 1%;
+
+}
+#n-tarea{
+    margin: 5px;
+    padding: 0.5em 1em;
+}
+#semana{
+    width: 100%;
+    color: red;
+}
+#semana thead{
+    background: #f6492f;
+}
+
+#semana thead th{
+    border: 1px solid #661906;
+    width:14.28%;
+    font-size: 1em;
+    font-weight: lighter;
+    color: white;
+}
+#semana thead th:first-child{
+    width: 3em;;
+}
+#semana thead th label{
+    font-size: 0.8em;
+}
+
+#semana tbody td{
+    border: 1px solid #f6492f;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    padding: 0;
+
+}
+
+.full{
+    position: fixed;
+    background: rgba(10,10,10,0.8);
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.cl-blan{
+    color: white;
+}
+.centrar{
+    max-width:100%;
+    width: 20em;
+    margin: 5% auto;
+    background: #f6492f;
+    border-radius: 5px;
+}
+.ta-c{
+    text-align: center;
+}
+.f-n-tarea{
+    padding: 1em;
+}
+.tx, .txa{
+    width: 100%;
+    border-radius: 2px;
+    border: 0;
+}
+.tx{
+    height: 2em;
+
+}
+.txa{
+    height: 6em;
+}
+.h-ini,.h-fin{
+    height: 2em;
+}
+
+.f-n-tarea label{
+    width: 6em;
+    display: inline-block;
+    margin-top: 0.5em;
+}
+.cerrar,.eliminar{
+    float: right;
+    padding: 0.5em 1em;
+    color: white
+}
+.eliminar{
+    float: left
+}
+.btn-agregar{
+    padding: 0.5em 1em;
+    background: #0066ff;
+    color: white;
+    cursor: pointer;
+}
+#n-tarea{
+    display: inline-block;
+
+
+}
+.hoydia{
+    background: #0ea0a0;
+}
+.urgente{
+    background: #f64f65;
+}
+.importante{
+    background: #19b723;
+}
+.normal{
+    background: #22a3b0;
+}
+.tarea{
+    color: black;
+    display: block;
+    height: 3em;
+}
+.tarea>a{
+
+display: block;
+padding: 0.5 1em;
+}
