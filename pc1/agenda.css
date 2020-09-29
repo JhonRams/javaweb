@@ -43,14 +43,15 @@ button:hover{
 }
 #semana{
     width: 100%;
-    color: red;
+    color: #097c97;
+    border: 1px solid #039bca;
 }
 #semana thead{
-    background: #f6492f;
+    background: #097c97;
 }
 
 #semana thead th{
-    border: 1px solid #661906;
+    border: 1px solid white;
     width:14.28%;
     font-size: 1em;
     font-weight: lighter;
@@ -64,7 +65,7 @@ button:hover{
 }
 
 #semana tbody td{
-    border: 1px solid #f6492f;
+    border: none;
     overflow:hidden;
     white-space:nowrap;
     text-overflow: ellipsis;
@@ -88,7 +89,7 @@ button:hover{
     max-width:100%;
     width: 20em;
     margin: 5% auto;
-    background: #f6492f;
+    background: #097c97;
     border-radius: 5px;
 }
 .ta-c{
@@ -96,6 +97,10 @@ button:hover{
 }
 .f-n-tarea{
     padding: 1em;
+}
+.horat{
+    height: 3em;
+    line-height: 3em;
 }
 .tx, .txa{
     width: 100%;
@@ -128,7 +133,7 @@ button:hover{
 }
 .btn-agregar{
     padding: 0.5em 1em;
-    background: #0066ff;
+    background: #039bca;
     color: white;
     cursor: pointer;
 }
@@ -138,24 +143,28 @@ button:hover{
 
 }
 .hoydia{
-    background: #0ea0a0;
+    background: #039bca;
 }
 .urgente{
-    background: #f64f65;
+    background: tomato;
 }
 .importante{
-    background: #19b723;
+    background: #33d23d;
 }
 .normal{
-    background: #22a3b0;
+    background: #039bca;
 }
 .tarea{
     color: black;
     display: block;
     height: 3em;
+    border: 1px solid white;
 }
 .tarea>a{
-
 display: block;
 padding: 0.5 1em;
+color: white;
+}
+.tarea>a:visited{
+    color: white;
 }
